@@ -2,9 +2,10 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-def index():
-    print("WELCOME")
-
+def welcome():
+   print("welcome")
+def welcome():
+   print("welcome")
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'caerProject.settings')
